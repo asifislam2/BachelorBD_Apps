@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashbord"
+    android:background="@color/white"
+    android:id="@+id/drawer_lay"
+    >
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/materialToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Bachelor"
+                app:navigationIcon="@drawable/baseline_menu_24"
+                >
+
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_height="40dp"
+                    android:layout_width="160dp"
+                    android:clipToOutline="false"
+                    android:layout_gravity="right"
+                    />
+
+
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            >
+
+            <FrameLayout
+                android:id="@+id/fram_lay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottomNavigation"
+                android:layout_marginBottom="3dp"
+                android:visibility="visible" />
+
+            <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+                android:id="@+id/bottomNavigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mbn_selectedIconColor="#03CC07"
+                app:mbn_circleColor="#FF5722"
+                android:layout_alignParentBottom="true"
+                app:mbn_countTextColor="#673AB7"
+                app:mbn_shadowColor="#DFDCD7D0"
+                app:mbn_backgroundBottomColor="#FFFFFF"
+                />
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:backgroundTint="#FFFFFF"
+        app:headerLayout="@layout/header_lay"
+        app:menu="@menu/left_item"
+        />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

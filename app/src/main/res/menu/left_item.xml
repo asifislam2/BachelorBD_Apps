@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/baseline_account_circle_24"
+            />
+        <item
+            android:id="@+id/security_setting"
+            android:title="Security Setting"
+            android:icon="@drawable/baseline_security_24"
+            />
+
+        <item
+            android:id="@+id/rent_management"
+            android:title="Rent Management"
+            android:icon="@drawable/baseline_manage_accounts_24"
+            />
+
+
+        <item
+            android:id="@+id/emergency_contract"
+            android:title="Emergency Contract"
+            android:icon="@drawable/baseline_emergency_24"
+            />
+
+        <item
+            android:id="@+id/helop_support"
+            android:title="Help Support"
+            android:icon="@drawable/baseline_support_agent_24"
+            />
+
+        <item
+            android:id="@+id/trams_conditions"
+            android:title="Trams Conditions"
+            android:icon="@drawable/baseline_security_24"
+            />
+
+
+
+        <item
+            android:id="@+id/privacy_policy"
+            android:title="Privacy Policy"
+            android:icon="@drawable/baseline_privacy_tip_24"
+            />
+
+        <item
+            android:id="@+id/log_out"
+            android:title="Log Out"
+            android:icon="@drawable/baseline_logout_24"
+            />
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "37752972850",
+    "firebase_url": "https://firestore-471b9-default-rtdb.firebaseio.com",
+    "project_id": "firestore-471b9",
+    "storage_bucket": "firestore-471b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37752972850:android:d4964f51272447e9d77e2b",
+        "android_client_info": {
+          "package_name": "com.bachelor.bachelorbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37752972850-1ocgi519j8s7335jqh726cefmdel0f6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWfQP-z5ZkGo_x81LLpp3cyypuclPSlEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37752972850-1ocgi519j8s7335jqh726cefmdel0f6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
