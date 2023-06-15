@@ -1,0 +1,5 @@
+# BachelorBD_Apps![reg_Page](https://github.com/asifislam2/BachelorBD_Apps/assets/111923685/0c5320bc-b9e1-466b-b6aa-ef9949d2545a)
+![regpageone](https://github.com/asifislam2/BachelorBD_Apps/assets/111923685/907be84d-f259-495e-8042-75a8772fa724)
+![homepage](https://github.com/asifislam2/BachelorBD_Apps/assets/111923685/534e32ef-2b37-436d-bc3a-ecd29af3fd7e)
+![navigation](https://github.com/asifislam2/BachelorBD_Apps/assets/111923685/c0ccb5aa-476d-4f7f-b6da-6bc3242003a8)
+![createPost](https://github.com/asifislam2/BachelorBD_Apps/assets/111923685/79d6cf42-bd90-451e-9b3c-6ead46212f8d)
